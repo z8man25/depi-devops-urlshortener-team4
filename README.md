@@ -1,25 +1,59 @@
-Project Name
+# 🚀 Project Name  
+**Building and Monitoring a Containerized URL Shortener Service**
 
-Building and Monitoring a Containerized URL Shortener Service
+---
 
-Team Members
+## 👥 Team Members  
 
-Mazen Yasser Mohamed Hussein
+- Mazen Yasser Mohamed Hussein  
+- Ahmed Saad El Sayed El Abd  
+- Ziad Ahmed Sabry Abd El Fataah  
+- Ibrahim ELsayed Ibrahim Elnaggar  
+- Omar Mohamed Abdulmonem Ali  
+- Sameh Reda Makram Labib  
 
-Ahmed Saad El Sayed El Abd
+---
 
-Ziad Ahmed Sabry Abd El Fataah
+## 🎯 Objective  
 
-Ibrahim ELsayed Ibrahim Elnaggar
+Design, containerize, and monitor a scalable URL shortener service. The project aims to provide a simple yet efficient application for generating and managing short links, while ensuring visibility into system performance through integrated monitoring tools (Prometheus and Grafana). All components will be deployed and orchestrated locally using Docker.  
 
-Omar Mohamed Abdulmonem Ali
+---
 
-Sameh Reda Makram Labib
+## 📖 Description  
 
-Objective
+This project focuses on developing a lightweight web application that shortens URLs, stores the mapping data, and manages redirections.  
 
-Design, containerize, and monitor a scalable URL shortener service. The project aims to provide a simple yet efficient application for generating and managing short links, while ensuring visibility into system performance through integrated monitoring tools (Prometheus and Grafana). All components will be deployed and orchestrated locally using Docker.
+- The application will be **containerized** to guarantee portability and consistency across environments.  
+- The service will be **instrumented with metrics**, enabling performance monitoring.  
+- **Prometheus** will collect metrics and **Grafana** will visualize them through interactive dashboards.  
 
-Description
+This setup provides both functionality and observability in a unified environment.  
 
-The project involves building a URL shortening web service that allows users to create, store, and manage shortened links with quick redirections. The application will be containerized to ensure portability and consistency across environments. To maintain reliability and track performance, the service will expose metrics that Prometheus collects, while Grafana provides interactive dashboards for real-time monitoring and analysis. This setup delivers both functionality and observability in one cohesive environment.
+---
+
+## 🛠️ Tech Stack  
+
+- **Programming Language**: (e.g., Python / Node.js / Go – specify your choice)  
+- **Containerization**: Docker  
+- **Monitoring**: Prometheus & Grafana  
+- **Database**: (e.g., SQLite / PostgreSQL / MongoDB – specify your choice)  
+
+---
+
+## 📌 Features  
+
+- Generate shortened URLs from long links  
+- Store and manage URL mappings  
+- Redirect users to original links  
+- Expose service metrics for monitoring  
+- Real-time dashboards with Grafana  
+
+---
+
+## 🚀 How to Run  
+
+1. Clone this repository:  
+   ```bash
+   git clone https://github.com/your-username/url-shortener.git
+   cd url-shortener
