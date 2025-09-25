@@ -30,3 +30,30 @@ This project focuses on developing a lightweight web application that shortens U
 
 This setup provides both functionality and observability in a unified environment.  
 
+---
+
+## 📅 4-Week Project Plan  
+
+### **Week 1 – Project Setup & Basics**  
+- Finalize project requirements and architecture  
+- Set up GitHub repository and initial documentation  
+- Develop basic URL shortener logic (shorten & redirect)  
+- Choose and configure the database  
+
+### **Week 2 – Containerization & Persistence**  
+- Write Dockerfile for the application  
+- Configure Docker Compose for multi-service setup  
+- Add database container for persistence  
+- Implement basic error handling & validations  
+
+### **Week 3 – Monitoring & Metrics**  
+- Add application instrumentation for Prometheus  
+- Set up Prometheus for metrics collection  
+- Integrate Grafana and design dashboards  
+- Test system performance under load  
+
+### **Week 4 – Testing & Finalization**  
+- Conduct end-to-end testing of all components  
+- Optimize Docker setup and resource usage  
+- Write final project documentation (README, usage guide)  
+- Prepare project presentation/demo  
