@@ -30,30 +30,3 @@ This project focuses on developing a lightweight web application that shortens U
 
 This setup provides both functionality and observability in a unified environment.  
 
----
-
-## 🛠️ Tech Stack  
-
-- **Programming Language**: (e.g., Python / Node.js / Go – specify your choice)  
-- **Containerization**: Docker  
-- **Monitoring**: Prometheus & Grafana  
-- **Database**: (e.g., SQLite / PostgreSQL / MongoDB – specify your choice)  
-
----
-
-## 📌 Features  
-
-- Generate shortened URLs from long links  
-- Store and manage URL mappings  
-- Redirect users to original links  
-- Expose service metrics for monitoring  
-- Real-time dashboards with Grafana  
-
----
-
-## 🚀 How to Run  
-
-1. Clone this repository:  
-   ```bash
-   git clone https://github.com/your-username/url-shortener.git
-   cd url-shortener
